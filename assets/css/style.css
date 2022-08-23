@@ -8,18 +8,21 @@
 }
 .imgbg{
     background-image: url(../imgs/banner.avif);
-    background-size: 100% 100%; 
+    background-size: auto; 
     background-repeat: no-repeat;
     height: 100vh;
+    background-attachment: fixed;
+}
+.bg1{
+    background-color: #3D2C8D;
 }
 @media (max-width: 800px) {
     .imgbg {
         background-image: url(../imgs/banner.avif);
-        background-size: contain; 
-        background-repeat: no-repeat;
+        background-size: cover; 
+        background-repeat: repeat;
         height: 100vh;
+        background-attachment: fixed;
+
     }
   }
-.bg1{
-    background-color: #3D2C8D;
-}
