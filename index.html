@@ -9,7 +9,7 @@
     <title>Mi portafolio</title>
 </head>
 <body class="imgbg">
-    <nav class="navbar navbar-expand-sm bgNav">
+    <nav class="navbar fixed-top navbar-expand-sm bgNav">
         <div class="container-fluid">
           <a class="navbar-brand beige" href="#">Portafolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,44 +18,121 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
               <li class="nav-item mx-5">
-                <a class="nav-link beige" href="#">Link</a>
+                <a class="nav-link beige" href="#1">Inicio</a>
               </li>
               <li class="nav-item mx-5">
-                <a class="nav-link beige" href="#">Link</a>
+                <a class="nav-link beige" href="#2">Sobre mi</a>
               </li>
               <li class="nav-item mx-5">
-                <a class="nav-link beige" href="#">Disabled</a>
+                <a class="nav-link beige" href="#3">Trabajos</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <header class="container-fluid">
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt officia eos est culpa eaque tenetur quibusdam? Dolorum tempora repellendus aut libero, perferendis qui magni doloribus iure consectetur voluptates possimus.</p>
+    <header id="1" class="container m-auto py-5">
+      <div class=" p-5 bgimg1 shadow-lg rounded">
+        <h2 class="beige text-center">Lorem, ipsum dolor.</h2>
+        <p class="beige text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt officia eos est culpa eaque tenetur quibusdam? Dolorum tempora repellendus aut libero, perferendis qui magni doloribus iure consectetur voluptates possimus.</p>
+      </div>
     </header>
     <main>
-        <article class="container-fluid py-5 bg1">
+        <article id="2" class="container-fluid py-5 bg1">
             <section class="row justify-content-center">
                 <div class="col-12 col-md-3">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
+                    <h2 class="beige">Lorem, ipsum.</h2>
+                    <p class="beige">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
                     </p>
                 </div>
                 <div class="col-12 col-md-3">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
+                    <h2 class="beige">Lorem, ipsum.</h2>
+                    <p class="beige">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
                     </p>
                 </div>
                 <div class="col-12 col-md-3">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
+                    <h2 class="beige">Lorem, ipsum.</h2>
+                    <p class="beige">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique soluta eveniet, officia expedita accusantium adipisci harum quasi. Corrupti perferendis harum facere nulla laudantium esse officia placeat, quis explicabo, ullam ducimus?
                     </p>
                 </div>
-                
+    
             </section>
         </article>
+        <div class="containerwave">
+          <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+            <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#7D9D9C;"></path>
+          </svg>
+        </div>
+        <article id="3" class="container-fluid bg2 mt-0">
+          <h2 class="text-center py-4">Trabajos realizados</h2>
+          <div class="container">
+            <section class="row g-5">
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-0">
+                  <img src="/assets/imgs/1.webp" class="card-img-top"  alt="">
+                  <div class="card-body bg3">
+                    <h5 class="card-title">Currículum Vitae</h5>
+                    <p class="card-text">Primer trabajo en el cual se debía construir un cv utilizando solamente HTML.</p>
+                    <a target="_blank" href="https://jtca94.github.io/Desafio1/" class="btn bg1">Ir al repositorio</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-0">
+                  <img src="/assets/imgs/2.avif" class="card-img-top"  alt="">
+                  <div class="card-body bg3">
+                    <h5 class="card-title">Landing page</h5>
+                    <p class="card-text">Desafío en el que se debía crear un landing page agregando elemtos básicos de CSS.</p>
+                    <a target="_blank" href="https://jtca94.github.io/Desafio2/" class="btn bg1">Ir al repositorio</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-0">
+                  <img src="/assets/imgs/3.jpg" class="card-img-top"  alt="">
+                  <div class="card-body bg3">
+                    <h5 class="card-title">Iguana page</h5>
+                    <p class="card-text">Creación de una página web sobre iguanas, basado en una maqueta utilizando HTML y CSS con la finalidad de crear elementos de bloque e inline-block.</p>
+                    <a target="_blank" href="https://jtca94.github.io/Desafio3/" class="btn bg1">Ir al repositorio</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-0">
+                  <img src="/assets/imgs/4.jpg" class="card-img-top"  alt="">
+                  <div class="card-body bg3">
+                    <h5 class="card-title">Cupón page</h5>
+                    <p class="card-text">Página creada a partir de bootstrap 5 utilizando tarjetas y elementos de este framework en base a una maqueta prediseñada</p>
+                    <a target="_blank" href="https://jtca94.github.io/Desafio4/" class="btn bg1">Ir al repositorio</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card p-0">
+                  <img src="/assets/imgs/5.jpg" class="card-img-top"  alt="">
+                  <div class="card-body bg3">
+                    <h5 class="card-title">GitHub</h5>
+                    <p class="card-text">Trabajo con otros repositorios utilizando técnicas como fork, add, commit y push.</p>
+                    <a href="https://jtca94.github.io/fdsw-github/" target="_blank" class="btn bg1">Ir al repositorio</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+        <div class="containerwave">
+          <svg viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+            <path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#E4DCCF;"></path>
+          </svg>
+        </div>
     </main>
+    <footer class="mt-5 bg-dark">
+      <h2 class="beige py-5 text-center">Todos los derechos reservados 2022.</h2>
+    </footer>
 
     
 

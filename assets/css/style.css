@@ -1,7 +1,7 @@
 
 
 .bgNav{
-    background-color: #1C0C5B;
+    background-color: #576F72;
 }
 .beige{
     color: beige;
@@ -14,8 +14,36 @@
     background-attachment: fixed;
 }
 .bg1{
-    background-color: #3D2C8D;
+    background-color: #7D9D9C;
 }
+.bg2{
+    background-color: #E4DCCF;
+}
+.bg3{
+    background-color: #F0EBE3;
+}
+svg{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.containerwave{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+.bgimg1{
+    background-image: url(../imgs/back1.avif);
+}
+
+
+
+
 @media (max-width: 800px) {
     .imgbg {
         background-image: url(../imgs/banner.avif);
