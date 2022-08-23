@@ -1,0 +1,25 @@
+
+
+.bgNav{
+    background-color: #1C0C5B;
+}
+.beige{
+    color: beige;
+}
+.imgbg{
+    background-image: url(../imgs/banner.avif);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+@media (max-width: 800px) {
+    .imgbg {
+        background-image: url(../imgs/banner.avif);
+        background-size: contain; 
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+  }
+.bg1{
+    background-color: #3D2C8D;
+}
