@@ -1,7 +1,17 @@
-
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.fw-100{
+    font-weight: 100;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-500{
+    font-weight: 500;
+}
 .bgNav{
-    background-color: #576F72;
+    background-color: #ECB365;
 }
 .beige{
     color: beige;
@@ -14,13 +24,13 @@
     background-attachment: fixed;
 }
 .bg1{
-    background-color: #7D9D9C;
+    background-color: #2C3639;
 }
 .bg2{
-    background-color: #E4DCCF;
+    background-color: #DCD7C9;
 }
 .bg3{
-    background-color: #F0EBE3;
+    background-color: #FFf;
 }
 svg{
     display: inline-block;
@@ -39,6 +49,7 @@ svg{
 
 .bgimg1{
     background-image: url(../imgs/back1.avif);
+    background-size: cover;
 }
 
 
