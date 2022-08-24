@@ -11,7 +11,7 @@ body{
     font-weight: 500;
 }
 .bgNav{
-    background-color: #ECB365;
+    background-color: #2C3639;
 }
 .beige{
     color: beige;
@@ -31,6 +31,9 @@ body{
 }
 .bg3{
     background-color: #FFf;
+}
+.bg4{
+    background-color: rgba(0, 0, 0, 0.5);
 }
 svg{
     display: inline-block;
