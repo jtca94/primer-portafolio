@@ -52,8 +52,16 @@ svg{
     background-size: cover;
 }
 
+.w50{
+    width: 50%;
+}
 
+@media (max-width: 1050px) {
+    .w50 {
+        width: 100%;
 
+    }
+  }
 
 @media (max-width: 800px) {
     .imgbg {
