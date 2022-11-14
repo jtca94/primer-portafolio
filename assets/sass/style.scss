@@ -1,0 +1,84 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.fw-100{
+    font-weight: 100;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-500{
+    font-weight: 500;
+}
+.bgNav{
+    background-color: #2C3639;
+}
+.beige{
+    color: beige;
+}
+.imgbg{
+    background-image: url(../imgs/banner.avif);
+    background-size: auto; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.bg1{
+    background-color: #2C3639;
+}
+.bg2{
+    background-color: #DCD7C9;
+}
+.bg3{
+    background-color: #FFf;
+}
+.bg4{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+svg{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.containerwave{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 40%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+.bgimg1{
+    background-image: url(../imgs/back1.avif);
+    background-size: cover;
+}
+
+.w50{
+    width: 50%;
+}
+@media (max-width: 1050px) {
+    .w50 {
+        width: 100%;
+
+    }
+  }
+
+@media (max-width: 800px) {
+    .imgbg {
+        background-image: url(../imgs/banner.avif);
+        background-size: cover; 
+        background-repeat: repeat;
+        height: 100vh;
+        background-attachment: fixed;
+
+    }
+  }

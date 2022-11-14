@@ -1,0 +1,26 @@
+{
+  "name": "jtca94.github.io",
+  "version": "1.0.0",
+  "description": "[- jtca94.github.io](https://jtca94.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass --watch assets/sass/style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtca94/jtca94.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtca94/jtca94.github.io/issues"
+  },
+  "homepage": "https://github.com/jtca94/jtca94.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
